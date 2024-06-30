@@ -1,0 +1,28 @@
+CREATE TABLE reponses_questionnaire (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    age INT,
+    sexe VARCHAR(10),
+    main_dominante VARCHAR(10),
+    fiabilite INT,
+    competence INT,
+    connaissance INT,
+    interactif INT,
+    reactivite INT,
+    capacite   INT,
+    organique  INT,
+    sociabilite INT,
+    emotion INT,
+    compassion INT,
+    bonheur   INT,
+    ressenti  INT,
+    maladresse INT,
+    peur INT,
+    etrangete INT,
+    horreur  INT,
+    danger   INT,
+    agressivite INT,
+    unexpectedBehavior VARCHAR(10),
+    specifyBehavior TEXT,
+    commentaires_supplementaires TEXT
+);
+

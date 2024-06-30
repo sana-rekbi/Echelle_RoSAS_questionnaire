@@ -1,0 +1,33 @@
+body{
+    background: linear-gradient(135deg,#eff4f7, #e1dbe3);
+  
+  }
+form{
+
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Form font */
+
+  }
+  
+.btn{
+  height:35px;
+  background: rgba(242, 242, 244, 0.808);
+  border:0px;
+  border-radius:5px;
+  color:black;
+  font-size:15px;
+  cursor:pointer;
+  transition:all .3s;
+  margin-top:10px;
+  padding: 0px 10px;
+
+
+}
+.btn:hover{
+  opacity:0.82;
+}

@@ -1,0 +1,90 @@
+body {
+    background: linear-gradient(135deg, #7ab7e6, #9B59B6);
+}
+
+.header-text {
+    font-weight: bold;
+    font-size: 15px; /* Optionnel : ajustez la taille du texte si nécessaire */
+    text-align: left; /* Optionnel : centre le texte */
+    margin-top: 20px; /* Optionnel : ajustez l'espacement supérieur */
+}
+
+legend {
+    font-weight: bold; /* Met le texte en gras */
+    font-size: 20px; /* Modifie la taille du texte */
+}
+
+.btn {
+    height: 35px;
+    background: rgba(242, 242, 244, 0.808);
+    border: 0px;
+    border-radius: 5px;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .3s;
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+
+.btn:hover {
+    opacity: 0.82;
+}
+
+.slidecontainer {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 40%; /* Ajusté à 40% */
+    height: 20px;
+    background: linear-gradient(to right, red, orange, yellow, green);
+    outline: none;
+    opacity: 0.9;
+    transition: opacity .2s;
+    border-radius: 10px;
+    position: relative;
+    margin: 0; /* Centrer horizontalement */
+    display: block; /* Centrer horizontalement */
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #2c10a8;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #2c10a8;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.slider-labels {
+    display: none;
+    justify-content: space-between;
+    padding: 0 5px;
+    margin-top: 5px;
+    width: 40%; /* Ajusté à 40% pour correspondre à l'échelle */
+    margin: 0; /* Centrer horizontalement */
+    display: flex; /* Afficher les labels */
+}
+
+.slider-labels span {
+    font-size: 12px;
+    font-weight: bold; /* Ajouté pour mettre les nombres en gras */
+    flex: 1; /* Permet aux labels de s'ajuster en largeur */
+    text-align: center; /* Centrer le texte des labels */
+}
